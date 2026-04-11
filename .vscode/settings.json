@@ -1,0 +1,14 @@
+{
+    "editor.tokenColorCustomizations": {
+        "[VS Code Dark]": {
+            "textMateRules": [
+                {
+                    "scope": "entity.other.attribute-name.html",
+                    "settings": {
+                        "foreground": "#ff7f00"
+                    }
+                }
+            ]
+        }
+    }
+}
