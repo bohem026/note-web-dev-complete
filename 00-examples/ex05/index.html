@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Forms Challenge</title>
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+    </header>
+    <main>
+      <form action="">
+        <h2>How can we help you?</h2>
+        <div>
+          <label for="user-name">Your Name</label>
+          <input class="input-common" type="text" id="user-name" />
+        </div>
+        <div>
+          <label for="user-email">Your E-Mail Address</label>
+          <input class="input-common" type="email" id="user-email" />
+        </div>
+        <div>
+          <label for="user-phone">Your Phone Number</label>
+          <input class="input-common" type="tel" id="user-phone" />
+        </div>
+        <div>
+          <label for="user-message">Your Message</label>
+          <textarea
+            class="input-common"
+            name=""
+            id="user-message"
+            rows="4"
+          ></textarea>
+        </div>
+        <div>
+          <label for="user-path">How did you find us?</label>
+          <select class="input-common" id="user-path">
+            <option value="web" selected>Web Search</option>
+            <option value="mouth">World of Mouth</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div>
+          <h2>How should we reply?</h2>
+          <div>
+            <input
+              type="radio"
+              name="user-reply"
+              id="user-reply"
+              value="call"
+            /><label for="user-reply">Call me</label>
+          </div>
+          <div>
+            <input
+              type="radio"
+              name="user-reply"
+              id="user-reply"
+              value="email"
+            /><label for="user-reply">Send me an email</label>
+          </div>
+          <div>
+            <input
+              type="radio"
+              name="user-reply"
+              id="user-reply"
+              value="no-reply"
+            /><label for="user-reply">Don't reply</label>
+          </div>
+        </div>
+        <input
+          type="checkbox"
+          id="user-accept"
+          style="margin-top: 20px; margin-bottom: 20px"
+        /><label for="user-accept">Accept Terms</label>
+        <div style="text-align: right">
+          <button type="reset">Clear</button>
+          <button>Submit</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
